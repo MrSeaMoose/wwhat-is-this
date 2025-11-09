@@ -1,2 +1,39 @@
 #fuck powershell
-#
+
+use state is the way react stores malleable data
+
+const addBubble = () => {
+    if (inputText.trim() !== '') {
+      setBubbles([...bubbles, inputText]);
+      setInputText(''); // Clear input after adding
+     }
+
+okay so this is a constant which means it itself cannot be changed
+
+
+const [bubbles, setBubbles] = useState([]);
+in this, the data it represents can be changed, therefore you cannot reassign bubbles,
+but you CAN do something like, bubbles.push("bubow")
+In this, bubbles is the value, and can only be manipulated by using setBubbles;
+so, you would do setBubbles(5), which would modify bubbles\
+
+setBubbles([...bubbles, inputText]);
+the spread operator = . . ., it allows for us to output/input values from an array individually
+so, const myList = [bubbles, bananas]
+console.log(...myList) == "bubbles", "bananas"
+- just using bubbles.push doesn't create a new array, and so react is blind
+so, by doing ...bubbles, we create that new arrray
+
+style={{
+              padding: '10px 20px', //vertical & horz padding
+              backgroundColor: '#3e1af2ff', //self explanatory
+              color: 'white',
+              borderRadius: '20px',
+              fontSize: '16px'
+            }}
+
+
+meta <name = desc content = self explanatory \>
+<link rel="icon" href="/favicon.ico" /> 
+- so in public, put the desired web img, then change the one ref here
+
