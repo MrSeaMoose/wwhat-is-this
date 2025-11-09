@@ -37,3 +37,8 @@ meta <name = desc content = self explanatory \>
 <link rel="icon" href="/favicon.ico" /> 
 - so in public, put the desired web img, then change the one ref here
 
+mention the story, features that got cut and why
+mention plans for the future
+  - We could keep going forward with this by;
+
+jfasliksdfjk sdimt skowlaskli i have the problem
